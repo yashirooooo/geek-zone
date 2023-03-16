@@ -6,7 +6,7 @@ module.exports = {
   url: 'https://gz.yyyd.site',
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/pf.png',
   organizationName: 'crustio',
   onBrokenLinks: 'warn',
   projectName: 'docs',
@@ -16,7 +16,7 @@ module.exports = {
       title: 'geek{.zone}',
       logo: {
         alt: 'geek{.zone}',
-        src: 'img/logo.svg',
+        src: 'img/pf.png',
       },
       items: [
         {

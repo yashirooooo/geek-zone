@@ -1,7 +1,7 @@
 module.exports = {
   reference: {
-    Introduction: ['intro'],
-    API: [
+    Java: ['intro'],
+    Spring: [
       'api/intro',
       {
         'Getting started': [
@@ -50,25 +50,7 @@ module.exports = {
       },
       'api/FAQ'
     ],
-    'Crust Metadata': [
-      'crust/intro',
-      'crust/rpc',
-      'crust/constants',
-      'crust/storage',
-      'crust/extrinsics',
-      'crust/events',
-      'crust/errors'
-    ],
-    'Maxwell Metadata': [
-      'maxwell/intro',
-      'maxwell/rpc',
-      'maxwell/constants',
-      'maxwell/storage',
-      'maxwell/extrinsics',
-      'maxwell/events',
-      'maxwell/errors'
-    ],
-    Keyring: [
+    Mybatis: [
       'keyring/intro',
       {
         'Getting started': [
@@ -88,7 +70,44 @@ module.exports = {
       },
       'keyring/FAQ'
     ],
-    'Crypto Utilities': [
+    'Spring Boot': [
+      'ui-identicon/intro',
+      'ui-identicon/react',
+      'ui-identicon/react-native',
+      'ui-identicon/vue'
+    ],
+    'Spring Cloud': [
+      'ui-keyring/intro',
+      {
+        'Getting started': [
+          'ui-keyring/start/intro',
+          'ui-keyring/start/install',
+          'ui-keyring/start/init',
+          'ui-keyring/start/accounts',
+          'ui-keyring/start/addresses',
+          'ui-keyring/start/loading'
+        ]
+      }
+    ],
+    'Mysql': [
+      'crust/intro',
+      'crust/rpc',
+      'crust/constants',
+      'crust/storage',
+      'crust/extrinsics',
+      'crust/events',
+      'crust/errors'
+    ],
+    'Redis': [
+      'maxwell/intro',
+      'maxwell/rpc',
+      'maxwell/constants',
+      'maxwell/storage',
+      'maxwell/extrinsics',
+      'maxwell/events',
+      'maxwell/errors'
+    ],
+    'MQ': [
       'util-crypto/intro',
       {
         Examples: [
@@ -103,7 +122,7 @@ module.exports = {
       },
       'util-crypto/FAQ'
     ],
-    'Contracts (API)': [
+    '计算机网络': [
       'api-contract/intro',
       {
         'Getting started': [
@@ -118,26 +137,7 @@ module.exports = {
       },
       'api-contract/FAQ'
     ],
-    'Identicon (UI)': [
-      'ui-identicon/intro',
-      'ui-identicon/react',
-      'ui-identicon/react-native',
-      'ui-identicon/vue'
-    ],
-    'Keyring (UI)': [
-      'ui-keyring/intro',
-      {
-        'Getting started': [
-          'ui-keyring/start/intro',
-          'ui-keyring/start/install',
-          'ui-keyring/start/init',
-          'ui-keyring/start/accounts',
-          'ui-keyring/start/addresses',
-          'ui-keyring/start/loading'
-        ]
-      }
-    ],
-    'Extension': [
+    'JVM': [
       'extension/intro',
       'extension/usage',
       'extension/cookbook',
