@@ -2,8 +2,8 @@
 
 module.exports = {
   title: 'geek{.zone}',
-  tagline: 'Crust does JavaScript',
-  url: 'https://crust.network',
+  tagline: 'Geek Zone',
+  url: 'https://gz.yyyd.site',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
@@ -20,7 +20,7 @@ module.exports = {
       },
       items: [
         {
-          href: 'https://apps.crust.network/',
+          href: 'https://gz.yyyd.site',
           label: 'Apps UI (Wallet)',
           position: 'right',
         },
